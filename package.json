@@ -1,8 +1,12 @@
 {
   "version": "1.10.7",
-  "name": "babel-plugin-styled-components",
-  "description": "Improve the debugging experience and add server-side rendering support to styled-components",
-  "repository": "styled-components/babel-plugin-styled-components",
+  "name": "@hookydev/babel-plugin-styled-components",
+  "author": "hookydev",
+  "description": "Forked version that can work with xstyled - Improve the debugging experience and add server-side rendering support to styled-components",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hookydev/babel-plugin-styled-components.git"
+  },
   "contributors": [
     "Vladimir Danchenkov <vladimir.danchenkov@gmail.com>",
     "Max Stoiber <contact@mxstbr.com>",
@@ -14,6 +18,14 @@
     "lib"
   ],
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hookydev/babel-plugin-styled-components/issues"
+  },
+  "homepage": "https://github.com/hookydev/babel-plugin-styled-components#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",

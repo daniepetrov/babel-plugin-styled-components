@@ -17,11 +17,7 @@ export const importLocalName = (name, state, bypassCache = false) => {
     return localNameCache[cacheKey]
   }
 
-  let localName = state.styledRequired
-    ? name === 'default'
-      ? 'styled'
-      : name
-    : false
+  let localName = name === 'default' ? 'styled' : name
 
   state.file.path.traverse({
     ImportDeclaration: {
