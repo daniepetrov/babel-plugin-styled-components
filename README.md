@@ -13,14 +13,14 @@ This plugin is a highly recommended supplement to the base styled-components lib
 Install the plugin first:
 
 ```
-npm install --save-dev babel-plugin-styled-components
+npm install --save-dev @hookydev/babel-plugin-styled-components
 ```
 
 Then add it to your babel configuration:
 
 ```JSON
 {
-  "plugins": ["babel-plugin-styled-components"]
+  "plugins": ["@hookydev/babel-plugin-styled-components"]
 }
 ```
 
