@@ -1,5 +1,7 @@
 # `babel-plugin-styled-components`
 
+## This is the forked version that can work with [xstyled](https://github.com/smooth-code/xstyled) library
+
 This plugin is a highly recommended supplement to the base styled-components library, offering some useful features:
 
 - consistently hashed component classNames between environments (a must for server-side rendering)
